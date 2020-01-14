@@ -8,12 +8,12 @@ This repo is collection of my understanding and experiments with tf.keras - Sequ
 It also involves mathematical foundations of tensor operations and how CNNs work.
 
 ### Contains:
-- Tensors and Tensor operations using Numpy
+- Tensors and Tensor operations using Numpy : [Colab][1] [Github][2]
 
 - Loading data to tensorflow
   - Involves loading Tensors, arrays, images, time-series, and textual data.
   
-- Activation functions using Numpy and Matplotlib 
+- Activation functions using Numpy and Matplotlib  [Colab][3] [Github][4]
   - Involves ReLU, Sigmoid with graphical understanding
   
 - Defining custom activation functions
@@ -29,3 +29,8 @@ It also involves mathematical foundations of tensor operations and how CNNs work
 - GPU Acceleration in tensorflow
 
 - *Distributed learning* using `Mirrored strategy`, `Multiworker Mirrored Strategy`, `Parameter server strategy` using *`tf.distribute.Strategy`* API.
+
+[1] : https://colab.research.google.com/github/dhruvilmaniar/PracticalTF/blob/master/TensorOperations.ipynb
+[2] : https://github.com/dhruvilmaniar/PracticalTF/blob/master/TensorOperations.ipynb
+[3] : https://colab.research.google.com/github/dhruvilmaniar/PracticalTF/blob/master/ActivationFuncMath.ipynb
+[4] : https://github.com/dhruvilmaniar/PracticalTF/blob/master/ActivationFuncMath.ipynb
